@@ -1,0 +1,8 @@
+project:
+  name: "Decentralized Dependency Analytics Tool"
+  description: "A tool for analyzing and visualizing software project dependencies, tracking contributions, and managing rewards through the Tea Protocol."
+  maintainers:
+    - name: "Your Name"
+      email: "your.email@example.com"
+    - name: "Contributor Name"
+      email: "contributor.email@example.com"

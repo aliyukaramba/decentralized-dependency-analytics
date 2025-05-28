@@ -1,0 +1,15 @@
+{
+  "name": "Decentralized Dependency Analytics Tool",
+  "dockerFile": "Dockerfile",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "ms-vscode.vscode-typescript-tslint-plugin",
+    "GitHub.copilot"
+  ],
+  "postCreateCommand": "npm install",
+  "remoteUser": "node"
+}
