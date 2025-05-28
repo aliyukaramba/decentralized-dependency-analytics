@@ -5,15 +5,15 @@ function App() {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    axios.get('http://localhost:3000/analyze')
+    axios.get('/analyze')
       .then(response => setData(response.data))
       .catch(error => console.error('Error fetching data:', error));
   }, []);
 
   return (
     <div>
-      <h1>Dependency Analytics</h1>
-      <pre>{data ? JSON.stringify(data, null, 2) : 'Loading...'}</pre>
+      <h1>Dependency Analytics Dashboard</h1>
+      <pre>{data ? JSON.stringify(data, null, 2) : 'Loading dependencies...'}</pre>
     </div>
   );
 }
